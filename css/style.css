@@ -1,0 +1,51 @@
+html body{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(12, 14, 13);
+    font-family: 'Franklin Gothic';
+}
+
+.container{
+    background-color: rgb(167 170 178 / 74%);
+    margin-top: 200px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 40px;
+    border-style: solid;
+}
+
+.container h1{
+    font-size: 60px;
+}
+
+.row2 label{
+    font-size: 25px;
+}
+
+.row{
+    display: flex;
+    flex: wrap;
+    padding: 30px;
+}
+
+input{
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.row3 button{
+    border-radius: 50px;
+    width: 200px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.row3 button:hover{
+    background-color:rgb(0 0 0 / 88%);
+    color:  rgb(167 170 178 / 74%);
+}

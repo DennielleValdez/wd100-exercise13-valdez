@@ -20,14 +20,14 @@ html body{
     font-size: 60px;
 }
 
-.row2 label{
-    font-size: 25px;
-}
-
 .row{
     display: flex;
     flex: wrap;
     padding: 30px;
+}
+
+.row2 label{
+    font-size: 25px;
 }
 
 input{
@@ -42,7 +42,6 @@ input{
     border-radius: 50px;
     width: 200px;
     padding: 5px;
-    margin-left: 20px;
 }
 
 .row3 button:hover{

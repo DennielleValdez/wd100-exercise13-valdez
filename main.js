@@ -90,6 +90,7 @@ age is less than  12 = "You are still a minor"
     // }
 
 // PHASES OF LIFE
+
 const enterAge = () => {
     let age = Number(document.querySelector("#ageInput").value);
     let phase = "";
